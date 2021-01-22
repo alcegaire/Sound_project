@@ -1,0 +1,69 @@
+@font-face{
+    font-family:"Alba";
+    src:url("alba/alba.TTF");
+}
+
+body {
+    margin: 0;
+}
+
+.titre {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    font-family: Alba;
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    background-color: #90EE90;
+    background-size: cover;
+
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    height
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 10px 3px 3px;
+}
+
